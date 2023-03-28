@@ -1,0 +1,238 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-03-27 21:47-0400\n"
+"PO-Revision-Date: 2023-03-27 22:04-0400\n"
+"Last-Translator: \n"
+"Language-Team: ru <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.12.1\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: main.py:55
+msgid "📦 Assemble modules"
+msgstr "📦Собрать модуль"
+
+#: main.py:56
+msgid "🏰 Enter EXP Dungeon"
+msgstr "🏰 Войти в EXP Dungeon"
+
+#: main.py:60
+msgid "🔁 Auto Assemble {status}"
+msgstr "🔁 Автосборка модулей {status}"
+
+#: main.py:79
+msgid ""
+"Mimbus Bot {version}.\n"
+"This bot is used to manage your Mimbus account. Please, select your "
+"language:\n"
+msgstr ""
+"Mimbus Bot {version}.\n"
+"This bot is used to manage your Mimbus account. Please, select your "
+"language:\n"
+
+#: main.py:114
+msgid "Unknown language. Please, select your language:\n"
+msgstr "Unknown language. Please, select your language:\n"
+
+#: main.py:132 mimbus/middleware.py:104
+msgid "<b>Please, enter your Steam name:</b>"
+msgstr "<b>Введите логин Steam:</b>"
+
+#: main.py:141
+msgid "Loading Data..."
+msgstr "Загрузка данных..."
+
+#: main.py:150
+msgid ""
+"Welcome, {name}! LVL {level}\n"
+"Your Enkephalin: {stamina}\n"
+msgstr ""
+"Добро пожаловать, {name}! LVL {level}\n"
+"Ваш энкефалин: {stamina}\n"
+
+#: main.py:165
+msgid "Assembling modules..."
+msgstr "Собираем модуль…"
+
+#: main.py:172
+msgid "Modules assembled!"
+msgstr "Модуль собран!"
+
+#: main.py:182
+msgid "Select dungeon type:"
+msgstr "Выберите тип подземелья"
+
+#: main.py:188
+msgid "Dungeon 1"
+msgstr "EXP Dungeon 1"
+
+#: main.py:189
+msgid "Dungeon 2"
+msgstr "EXP Dungeon 2"
+
+#: main.py:190
+msgid "Dungeon 3"
+msgstr "EXP Dungeon 3"
+
+#: main.py:203
+msgid "Entering dungeon..."
+msgstr "Входим в подземелье…"
+
+#: main.py:212
+msgid "Battle in progress, please wait..."
+msgstr ""
+"Идет битва! Пожалуйста, подождите…\n"
+"В среднем битва занимает 5-7 минут."
+
+#: main.py:220
+msgid "Battle finished!"
+msgstr "Битва завершена!"
+
+#: main.py:233
+msgid ""
+"<b>Please, enter your Steam password:</b>\n"
+"\n"
+"Common questions:\n"
+"Q: Why do you need my Steam password?\n"
+"A: We need it to get your Mimbus one-time auth token. We do not store "
+"your password. This bot is open-source and you can check it yourself.\n"
+"\n"
+"Q: Can I log out this bot from steam?\n"
+"A: Yes, you can. Just use /logout command. Alternatively you can use "
+"`Log out from every device` button in steam.\n"
+"\n"
+"Q: Can I get banned for using this bot?\n"
+"A: <b>Yes</b>, you can. But we believe that probability of this is very "
+"low.We insure that every connection use separated proxy and we manually "
+"check every Mimbus update for potential problems.\n"
+msgstr ""
+"<b>Введите свой пароль Steam:</b>\n"
+"\n"
+"FAQ:\n"
+"Q: Зачем вам нужен мой пароль Steam?\n"
+"A: Он нужен нам для получения одноразового тикета для входа в Mimbus. "
+"<b>Мы не храним ваш пароль</b>. Этот бот имеет открытый исходный код, и "
+"вы можете проверить его самостоятельно.\n"
+"\n"
+"Q: Могу ли я разлогинить этого бота из Steam?\n"
+"A: Да, просто воспользуйтесь командой /logout. Также вы можете "
+"использовать кнопку `Log out from every device` в steam.\n"
+"\n"
+"Q: Могу ли я получить бан за использование этого бота?\n"
+"A: <b>Да</b>, но мы считаем, что такая возможность крайне маловероятно. "
+"Мы гарантируем, что каждое соединение использует отдельный прокси, и мы "
+"вручную проверяем каждое обновление Mimbus на наличие потенциальных "
+"проблем.\n"
+
+#: main.py:258 main.py:304
+msgid "Authenticating..."
+msgstr "Авторизация…"
+
+#: main.py:266
+msgid "<b>Please, enter your Steam guard code:</b>"
+msgstr "<b>Введите Steam guard код:</b>"
+
+#: main.py:279
+msgid ""
+"Unable to get the token. Wrong password? \n"
+"Error: {error}"
+msgstr ""
+"Неудалось получить токен. Проверьте данные на правильность. \n"
+"Ошибка: {error}"
+
+#: main.py:297
+msgid "How did we get here?"
+msgstr "How did we get here?"
+
+#: main.py:314
+msgid "Wrong Guard code. Please, try again: "
+msgstr "Неправильный Guard код, попробуйте еще раз: "
+
+#: main.py:331
+msgid "Done!"
+msgstr "Сделано! "
+
+#: main.py:340
+msgid "You have been successfully logged out."
+msgstr "Вы успешно вышли из аккаунта."
+
+#: main.py:351
+msgid "Canceled"
+msgstr "Отменено"
+
+#: main.py:362
+msgid "Auto assemble has been {status}"
+msgstr "Автосборка {status}"
+
+#: main.py:364
+msgid "enabled"
+msgstr "включена"
+
+#: main.py:364
+msgid "disabled"
+msgstr "выключена"
+
+#: main.py:381
+msgid "Waiting for 8 hours..."
+msgstr "Отложено на 8 часов…"
+
+#: mimbus/automation.py:36
+msgid ""
+"Canceling auto-assembly.\n"
+"Your refresh token is expired. Please, re-authenticate."
+msgstr ""
+"Автосборка отменена.\n"
+"Ваш стим токен перестал действовать, необходима повторная авторизация."
+
+#: mimbus/automation.py:52
+msgid "{num} modules have been assembled. "
+msgstr "Собрано модулей: {num}."
+
+#: mimbus/automation.py:73
+msgid "Skip for 8 hours"
+msgstr "Отложить на 8 часов"
+
+#: mimbus/automation.py:78
+msgid ""
+"The modules will be assembled in 15 minutes. Please, do not log into the "
+"game until the process is finished."
+msgstr ""
+"Сборка модулей начнется через 15 минут. Не входите в игру до завершения "
+"процесса."
+
+#: mimbus/automation.py:100
+msgid "Failed to assemble modules. Contact admin."
+msgstr "Не удалось собрать модули, сообщите администратору об ошибке."
+
+#: mimbus/middleware.py:96
+msgid "Your refresh token is expired. Please, re-authenticate."
+msgstr ""
+"Ваш стим токен перестал действовать, необходима повторная авторизация."
+
+#: mimbus/middleware.py:140
+msgid "An error occurred. Please, try again later."
+msgstr "Возникла непредвиденная ошибка. Поробуйте повторить запрос позже."
+
+#: mimbus/middleware.py:169
+msgid ""
+"Please, subscribe to our group to continue.\n"
+"{link}"
+msgstr ""
+"Please, subscribe to our group to continue.\n"
+"{link}"
+
+#: mimbus/middleware.py:184
+msgid "Bot is temporarily closed for maintenance. Please, try again later."
+msgstr "Ведутся технические работы."

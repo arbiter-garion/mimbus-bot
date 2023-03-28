@@ -1,0 +1,9 @@
+aiohttp
+pydantic
+mmh3
+sqlalchemy
+aiogram==3.0.0b7
+asyncpg
+Babel
+async_lru
+greenlet

@@ -1,0 +1,204 @@
+# English translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-03-27 21:47-0400\n"
+"PO-Revision-Date: 2023-03-27 21:48-0400\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: main.py:55
+msgid "📦 Assemble modules"
+msgstr ""
+
+#: main.py:56
+msgid "🏰 Enter EXP Dungeon"
+msgstr ""
+
+#: main.py:60
+msgid "🔁 Auto Assemble {status}"
+msgstr ""
+
+#: main.py:79
+msgid ""
+"Mimbus Bot {version}.\n"
+"This bot is used to manage your Mimbus account. Please, select your "
+"language:\n"
+msgstr ""
+
+#: main.py:114
+msgid "Unknown language. Please, select your language:\n"
+msgstr ""
+
+#: main.py:132 mimbus/middleware.py:104
+msgid "<b>Please, enter your Steam name:</b>"
+msgstr ""
+
+#: main.py:141
+msgid "Loading Data..."
+msgstr ""
+
+#: main.py:150
+msgid ""
+"Welcome, {name}! LVL {level}\n"
+"Your Enkephalin: {stamina}\n"
+msgstr ""
+
+#: main.py:165
+msgid "Assembling modules..."
+msgstr ""
+
+#: main.py:172
+msgid "Modules assembled!"
+msgstr ""
+
+#: main.py:182
+msgid "Select dungeon type:"
+msgstr ""
+
+#: main.py:188
+msgid "Dungeon 1"
+msgstr ""
+
+#: main.py:189
+msgid "Dungeon 2"
+msgstr ""
+
+#: main.py:190
+msgid "Dungeon 3"
+msgstr ""
+
+#: main.py:203
+msgid "Entering dungeon..."
+msgstr ""
+
+#: main.py:212
+msgid "Battle in progress, please wait..."
+msgstr ""
+
+#: main.py:220
+msgid "Battle finished!"
+msgstr ""
+
+#: main.py:233
+msgid ""
+"<b>Please, enter your Steam password:</b>\n"
+"\n"
+"Common questions:\n"
+"Q: Why do you need my Steam password?\n"
+"A: We need it to get your Mimbus one-time auth token. We do not store "
+"your password. This bot is open-source and you can check it yourself.\n"
+"\n"
+"Q: Can I log out this bot from steam?\n"
+"A: Yes, you can. Just use /logout command. Alternatively you can use `Log"
+" out from every device` button in steam.\n"
+"\n"
+"Q: Can I get banned for using this bot?\n"
+"A: <b>Yes</b>, you can. But we believe that probability of this is very "
+"low.We insure that every connection use separated proxy and we manually "
+"check every Mimbus update for potential problems.\n"
+msgstr ""
+
+#: main.py:258 main.py:304
+msgid "Authenticating..."
+msgstr ""
+
+#: main.py:266
+msgid "<b>Please, enter your Steam guard code:</b>"
+msgstr ""
+
+#: main.py:279
+msgid ""
+"Unable to get the token. Wrong password? \n"
+"Error: {error}"
+msgstr ""
+
+#: main.py:297
+msgid "How did we get here?"
+msgstr ""
+
+#: main.py:314
+msgid "Wrong Guard code. Please, try again: "
+msgstr ""
+
+#: main.py:331
+msgid "Done!"
+msgstr ""
+
+#: main.py:340
+msgid "You have been successfully logged out."
+msgstr ""
+
+#: main.py:351
+msgid "Canceled"
+msgstr ""
+
+#: main.py:362
+msgid "Auto assemble has been {status}"
+msgstr ""
+
+#: main.py:364
+msgid "enabled"
+msgstr ""
+
+#: main.py:364
+msgid "disabled"
+msgstr ""
+
+#: main.py:381
+msgid "Waiting for 8 hours..."
+msgstr ""
+
+#: mimbus/automation.py:36
+msgid ""
+"Canceling auto-assembly.\n"
+"Your refresh token is expired. Please, re-authenticate."
+msgstr ""
+
+#: mimbus/automation.py:52
+msgid "{num} modules have been assembled. "
+msgstr ""
+
+#: mimbus/automation.py:73
+msgid "Skip for 8 hours"
+msgstr ""
+
+#: mimbus/automation.py:78
+msgid ""
+"The modules will be assembled in 15 minutes. Please, do not log into the "
+"game until the process is finished."
+msgstr ""
+
+#: mimbus/automation.py:100
+msgid "Failed to assemble modules. Contact admin."
+msgstr ""
+
+#: mimbus/middleware.py:96
+msgid "Your refresh token is expired. Please, re-authenticate."
+msgstr ""
+
+#: mimbus/middleware.py:140
+msgid "An error occurred. Please, try again later."
+msgstr ""
+
+#: mimbus/middleware.py:169
+msgid ""
+"Please, subscribe to our group to continue.\n"
+"{link}"
+msgstr ""
+
+#: mimbus/middleware.py:184
+msgid "Bot is temporarily closed for maintenance. Please, try again later."
+msgstr ""
+

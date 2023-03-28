@@ -1,0 +1,7 @@
+{
+  "name": "limbscript",
+  "dependencies": {
+    "steam-appticket": "^1.0.1",
+    "steam-user": "^4.28.0"
+  }
+}
